@@ -1,9 +1,7 @@
-const LazyLoad = require('vanilla-lazyload');
-const {
-  AbstractReactBehaviour,
-} = require('./behaviours/abstract-react-behaviour.js');
+import LazyLoad from 'vanilla-lazyload';
+import AbstractReactBehaviour from './behaviours/abstract-react-behaviour';
 
-class Sauce {
+export default class Sauce {
   env = null;
   initialized = false;
 
@@ -112,7 +110,3 @@ class Sauce {
     if (this.env === 'dev') console.log('Sauce Loaded!');
   };
 }
-
-export { default as AbstractReactBehaviour } from './behaviours/abstract-react-behaviour';
-export { default as AbstractDataAttributeBehaviour } from './behaviours/abstract-data-attribute-behaviour';
-export default Sauce;

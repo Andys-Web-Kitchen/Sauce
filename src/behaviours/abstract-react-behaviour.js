@@ -1,8 +1,6 @@
-const React = require('react');
-const ReactDOM = require('react-dom');
-const {
-  AbstractDataAttributeBehaviour,
-} = require('./abstract-data-attribute-behaviour.js');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import AbstractDataAttributeBehaviour from './abstract-data-attribute-behaviour';
 
 export default class AbstractReactBehaviour extends AbstractDataAttributeBehaviour {
   attrNames = {
