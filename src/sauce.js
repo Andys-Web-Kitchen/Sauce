@@ -1,7 +1,8 @@
 import LazyLoad from 'vanilla-lazyload';
 import AbstractReactBehaviour from './behaviours/abstract-react-behaviour';
+import AbstractDataAttributeBehaviour from './behaviours/abstract-data-attribute-behaviour';
 
-export default class Sauce {
+class Sauce {
   env = null;
   initialized = false;
 
@@ -110,3 +111,6 @@ export default class Sauce {
     if (this.env === 'dev') console.log('Sauce Loaded!');
   };
 }
+
+export { AbstractReactBehaviour, AbstractDataAttributeBehaviour };
+export default Sauce;

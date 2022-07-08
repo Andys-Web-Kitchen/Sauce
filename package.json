@@ -1,6 +1,6 @@
 {
   "name": "@andys-webkitchen/sauce",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Vanilla JS framework for managing common behaviours",
   "main": "./dist/sauce.js",
   "scripts": {
