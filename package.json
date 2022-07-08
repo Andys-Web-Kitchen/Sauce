@@ -1,6 +1,6 @@
 {
   "name": "@andys-webkitchen/sauce",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vanilla JS framework for managing common behaviours",
   "main": "./dist/sauce.js",
   "scripts": {
@@ -11,7 +11,12 @@
     "framework"
   ],
   "author": "Andy's Webkitchen (https://andys-webkitchen.co.uk)",
-  "homepage": "https://andys-webkitchen.co.uk",
+  "homepage": "https://andys-webkitchen.co.uk",  
+  "bugs": "https://github.com/Andys-Web-Kitchen/Sauce/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Andys-Web-Kitchen/Sauce"
+  },
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.18.6",
