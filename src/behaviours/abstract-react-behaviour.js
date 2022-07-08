@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AbstractDataAttributeBehaviour from './abstract-data-attribute-behaviour';
+import { AbstractDataAttributeBehaviour } from './abstract-data-attribute-behaviour';
 
-export default class AbstractReactBehaviour extends AbstractDataAttributeBehaviour {
+export class AbstractReactBehaviour extends AbstractDataAttributeBehaviour {
   attrNames = {
     container: 'data-component',
     props: 'data-props',

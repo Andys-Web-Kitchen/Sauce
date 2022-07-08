@@ -1,4 +1,4 @@
-export default class AbstractDataAttributeBehaviour {
+export class AbstractDataAttributeBehaviour {
   getContainerSelector() {
     return null;
   }
